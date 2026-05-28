@@ -3,7 +3,7 @@
     font-size: 160px;
     line-height: 90%;
     letter-spacing: -0.05em;
-    padding-left: 60px;
+    text-align: center;
 }
 
 .hero {
@@ -11,16 +11,47 @@
 }
 
 .hero__content {
-    margin-top: -36px;
+    margin: -39px auto 0 auto;
     position: relative;
     display: flex;
+    max-width: 100%;
+    /* overflow: visible; */
+    justify-content: center;
+    /* height: 1000px; */
 }
 
-.hero__image {
+.hero__device {
+    /* z-index: 3;
+    border: none;
+    border-radius: 12px;
+    width: 907px;
+    height: auto;
+    padding-bottom: 44%;
+    margin: 0 auto;
+    background: url(/assets/image/screen.png) no-repeat bottom;
+    background-size: contain; */
+
+    z-index: 3;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    box-sizing: border-box;
+    border: 18px solid #000;
+    border-bottom: none;
+    width: 905px;
+    padding-bottom: 40.5%;
+    margin: 26px 22px 0px 22px;
+    background: url(/assets/image/screen.png) no-repeat top;
+    background-size: cover;
+
+}
+
+/* .hero__image {
     width: auto;
     height: auto;
     z-index: 3;
     display: flex;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -28,14 +59,92 @@
     z-index: 3;
     display: flex;
     margin: 0 auto;
-}
+    width: 907px;
+    height: 644px;
+} */
 
 .hero__content::before {
     content: "";
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 69%;
+    height: 68.5%;
     background-color: #8E9C78;
     border-radius: 30px;
+}
+
+.hero__brand {
+    margin-top: 50px;
+}
+
+.hero__brand-title {
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.005px;
+    color: #6F6F6F;
+}
+
+.hero__brand-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.hero__brand-icon {
+    width: 154px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__brand-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .hero__headline {
+        font-size: 140px;
+    }
+
+    .hero__device {
+        background: url(/assets/image/mScreen.png) no-repeat top;
+        border: 14px solid #000;
+        border-bottom: none;
+        width: 648px;
+
+    }
+}
+
+/* @media (max-width) {
+    .hero__device {
+        border: 14px solid #000;
+        border-bottom: none;
+    }
+} */
+
+@media (max-width: 767px) {
+    .hero__device {
+        background: url(/assets/image/mobileScreen.png) no-repeat top;
+        border: 8px solid #000;
+        border-bottom: none;
+        padding-bottom: 60%;
+        width: 271px;
+        background-size: cover;
+        border-top-left-radius: 36px;
+        border-top-right-radius: 36px;
+        height: 400px;
+    }
+
+    .hero__content::before {
+        height: 84%;
+    }
+
+    .hero__headline {
+        font-size: 76px;
+    }
 }
