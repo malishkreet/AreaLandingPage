@@ -1,0 +1,41 @@
+.hero__headline {
+    font-family: "Crimson Text";
+    font-size: 160px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    padding-left: 60px;
+}
+
+.hero {
+    margin-top: -50px;
+}
+
+.hero__content {
+    margin-top: -36px;
+    position: relative;
+    display: flex;
+}
+
+.hero__image {
+    width: auto;
+    height: auto;
+    z-index: 3;
+    display: flex;
+
+}
+
+.hero__picture {
+    z-index: 3;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero__content::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 69%;
+    background-color: #8E9C78;
+    border-radius: 30px;
+}
