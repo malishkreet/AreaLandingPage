@@ -40,7 +40,7 @@
     width: 905px;
     padding-bottom: 40.5%;
     margin: 26px 22px 0px 22px;
-    background: url(/assets/image/screen.png) no-repeat top;
+    background: url(../../assets/image/screen.png) no-repeat top;
     background-size: cover;
 
 }
@@ -112,7 +112,7 @@
     }
 
     .hero__device {
-        background: url(/assets/image/mScreen.png) no-repeat top;
+        background: url(../../assets/image/mScreen.png) no-repeat top;
         border: 14px solid #000;
         border-bottom: none;
         width: 648px;
@@ -129,7 +129,7 @@
 
 @media (max-width: 767px) {
     .hero__device {
-        background: url(/assets/image/mobileScreen.png) no-repeat top;
+        background: url(../../assets/image/mobileScreen.png) no-repeat top;
         border: 8px solid #000;
         border-bottom: none;
         padding-bottom: 60%;
