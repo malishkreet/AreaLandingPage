@@ -1,0 +1,139 @@
+.overview {
+    margin-top: 120px;
+}
+
+
+
+.overview__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.overview__info {
+    flex-basis: 49%;
+    border-top: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.overview__headline {
+    font-family: 'Crimson Text';
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    line-height: 90%;
+    padding-top: 10px;
+    margin-bottom: 41px;
+
+}
+
+.overview__title {
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -0.007em;
+    line-height: 140%;
+    color: #6F6F6F;
+    max-width: 510px;
+}
+
+.overview__item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 19.5px 0px;
+    gap: 33px;
+    border-top: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.overview__list {
+    margin: 40px 0px;
+}
+
+.overview__number {
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    line-height: 140%;
+    color: #6F6F6F;
+}
+
+.overview__text {
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -0.007em;
+    line-height: 140%;
+    margin: 0;
+    max-width: 460px;
+}
+
+.overview__visual {
+    flex-basis: 49.2%;
+}
+
+.overload__btn {
+    background-color: #DFECC6;
+    padding: 14px 22px;
+    border-radius: 25px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+}
+
+.overview__visual {
+    max-width: 100%;
+    height: auto;
+}
+
+.overview__image {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .overview__content {
+        align-items: center;
+        /* flex-direction: column; */
+    }
+
+    .overview__info {
+        /* flex-basis: 100%;
+        width: 100%;
+        margin-bottom: 68px; */
+    }
+
+    .overview__visual {
+        /* flex-basis: 100%; */
+    }
+
+    .overview__text {
+        max-width: 590px;
+    }
+}
+
+@media (max-width: 991px) {
+    .overview__content {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .overview__info {
+        flex-basis: 100%;
+        width: 100%;
+        margin-bottom: 68px;
+    }
+
+    .overview__visual {
+        flex-basis: 100%;
+    }
+
+}
