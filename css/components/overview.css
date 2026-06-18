@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding-bottom: 120px;
+    padding-bottom: 116px;
     border-bottom: 1px solid rgba(207, 207, 207, 0.5);
 }
 
@@ -87,6 +87,7 @@
     font-size: 14px;
     line-height: 140%;
     letter-spacing: -0.025em;
+    color: #000;
 }
 
 .overview__visual {
@@ -102,17 +103,6 @@
 @media (max-width: 1200px) {
     .overview__content {
         align-items: center;
-        /* flex-direction: column; */
-    }
-
-    .overview__info {
-        /* flex-basis: 100%;
-        width: 100%;
-        margin-bottom: 68px; */
-    }
-
-    .overview__visual {
-        /* flex-basis: 100%; */
     }
 
     .overview__text {

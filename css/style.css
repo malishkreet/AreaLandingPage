@@ -3,9 +3,14 @@
 @import url('./components/hero.css');
 @import url('./components/benefits.css');
 @import url('./components/overview.css');
+@import url('./components/specs.css');
 
 body {
     margin: 0;
+}
+
+.main {
+    padding-top: 120px;
 }
 
 .container {

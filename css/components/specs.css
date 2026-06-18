@@ -1,0 +1,105 @@
+.specs {
+    margin-top: 70px;
+}
+
+.specs__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.specs__headline {
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #6F6F6F;
+
+}
+
+.specs__title {
+    font-family: 'Crimson Text';
+    font-size: 60px;
+    line-height: 90%;
+    letter-spacing: -0.03em;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+}
+
+.specs__text {
+    font-family: 'DM Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: -0.007em;
+    line-height: 140%;
+    max-width: 720px;
+    margin-bottom: 40px;
+}
+
+.specs__btn {
+    background-color: #DFECC6;
+    padding: 14px 22px;
+    border-radius: 25px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    color: #000;
+}
+
+.specs__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 113px;
+    overflow-x: auto;
+    min-width: 200px;
+}
+
+.specs__compare {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.specs__compare:not(:last-child) {
+    border-right: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.specs__header {
+    font-family: 'Rethink Sans';
+    font-weight: 100;
+    border-bottom: 1px solid rgba(207, 207, 207, 1);
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -0.08em;
+    line-height: 120%;
+    color: #6F6F6F;
+    margin-bottom: 0;
+}
+
+.specs__item {
+    display: flex;
+    font-family: 'Roboto Mono';
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    gap: 10px;
+    padding: 32px 0px 32px 32px;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.specs__check {
+    width: 10px;
+    height: auto;
+}
